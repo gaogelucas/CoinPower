@@ -13,8 +13,8 @@ result = request.json()
 ##
 class Bitfinex_v2(object):
     def __init__(self,
-                 api_key="6XJgdjTFlAUM3o9SPs62mzHW9I4VJ4dQ9NEbllHa8lK",
-                 api_sn="hteIwDSxzFIPaOGtTlbaIrebaoV8egn46cUOAVwWgfN"):
+                 api_key,
+                 api_sn):
         self.api_key = api_key
         self.api_sn = api_sn
 
@@ -24,8 +24,8 @@ class Bitfinex_v2(object):
 
 class Bitfinex(object):
     def __init__(self,
-                 api_key="6XJgdjTFlAUM3o9SPs62mzHW9I4VJ4dQ9NEbllHa8lK",
-                 api_sn="hteIwDSxzFIPaOGtTlbaIrebaoV8egn46cUOAVwWgfN"):
+                 api_key,
+                 api_sn):
         self.api_key = api_key
         self.api_sn = api_sn
 
